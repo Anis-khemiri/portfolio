@@ -1,0 +1,70 @@
+
+  .mysection {
+   
+  background-color: aqua;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+
+  .nums{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  
+   
+  
+   
+
+    
+  }
+ .box {
+    background-color: rgb(130, 117, 201);
+    padding: 30px 15px;
+    text-align: center;
+    position: relative;
+    opacity: 0.8;
+    /* margin-top: 10px; */
+    margin: 20px ;
+    border-radius: 16px;
+  }
+  .box::before,
+  .box::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    background-color: brown;
+    transition: 1s;
+    height: 0;
+  }
+  .box::before {
+    top: 5%;
+    right: 0;
+  }
+  .box::after {
+    left: 0;
+    bottom: 5%;
+  }
+.box:hover {
+    opacity: 1;
+  }
+  .box:hover::before,
+  .box:hover::after {
+    height: 90%;
+  }
+  .box .num {
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+.box .text {
+    color: #eee;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .myicon {
+    color: azure;
+  }

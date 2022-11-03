@@ -1,12 +1,16 @@
-import React from 'react'
-import About from './About/About'
-import Landing from './landing/Landing'
+import React from 'react';
+
+import About from '../../pages/About/About';
+import Landing from '../../pages/landing/Landing';
+import Skills from '../../pages/Skills/Skills';
 
 export default function Main() {
   return (
-    <div className='container'>
+    <div className="container">
       <Landing />
       <About />
+      <Skills />
+      
     </div>
-  )
+  );
 }

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
 import {
   faVuejs,
   faCss3,
@@ -6,36 +6,33 @@ import {
   faHtml5,
   faJsSquare,
   faReact,
-} from '@fortawesome/free-brands-svg-icons'
-import Loader from 'react-loaders'
-import AnimatedLetters from '../../../components/AnimatedLetters'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import './About.css'
-import Card from '../../../components/Card/Card'
-
+} from '@fortawesome/free-brands-svg-icons';
+import Loader from 'react-loaders';
+import AnimatedLetters from '../../components/AnimatedLetters';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './About.css';
+import Card from '../../components/Card/Card';
 
 const About = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
+  const [letterClass, setLetterClass] = useState('text-animate');
 
   useEffect(() => {
-     setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 3000)
-  }, [])
+    setTimeout(() => {
+      setLetterClass('text-animate-hover');
+    }, 3000);
+  }, []);
 
   return (
     <>
-      <h1 className='text-center mb-5'>
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
-              idx={15}
-            />
-          </h1>
-        <div className="myAbout d-flex justify-content-between">
-            
-         
-          <div className='aboutInfo '>
+      <h2 className="text-center mb-5">
+        <AnimatedLetters
+          letterClass={letterClass}
+          strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+          idx={15}
+        />
+      </h2>
+      <div className="myAbout d-flex justify-content-between">
+        <div className="aboutInfo ">
           <p>
             I'm a very ambitious front-end developer looking for a role in an
             established IT company with the opportunity to work with the latest
@@ -74,16 +71,16 @@ const About = () => {
             </div>
           </div>
         </div>
-        </div>
-        
-<div className="Info d-flex justify-content-center align-items-center">
+      </div>
 
-<Card />
-</div>
-       
+      <div className="Info d-flex justify-content-center align-items-center">
+        <Card />
+      </div>
+      <button className="buttonDownload mt-2">Download CV</button>
+
       <Loader type="pacman" />
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;

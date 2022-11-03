@@ -1,0 +1,39 @@
+.mySkills {
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* section:first-child {
+    background-color: #aaa;
+  } */
+  .three:nth-child(2) {
+    background-color: #bbb;
+  }
+  .three:nth-child(3) {
+    background-color: #ccc;
+  }
+  .three:last-of-type {
+    background-color: #eee;
+  }
+  .progress {
+    position: relative;
+    width: 500px;
+    height: 30px;
+    background-color: white;
+    margin: 10px;
+  }
+  .progress span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: indianred;
+    transition: width 0.3s linear;
+  }

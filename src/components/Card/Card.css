@@ -26,19 +26,23 @@
     transition: all 0.2s linear;
   }
   .myListInfo {
+ 
     z-index: 2;
     color: white;
+    /* align-content: flex-start; */
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    /* align-content: flex-start; */
     align-items: flex-start;
+    width: 91%;
+    
     
   }
-  /* .myListInfo li,
-  .myListInfo li span {
-   
-  } */
+  .myListInfo h4 {
+   color: #ffc107;;
+  }
+  .myListInfo h4 span {
+   color: rgb(207, 222, 216);
+  }
   @keyframes rotBGimg {
     from {
       transform: rotate(0deg);

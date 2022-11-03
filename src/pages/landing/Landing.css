@@ -1,5 +1,5 @@
 .mylanding {
-height: 100vh;
+height: 500px;
 
 }
 .mylanding {
@@ -13,6 +13,11 @@ height: 100vh;
 	border-radius: 50%;
 	border: 2px solid #000;
 	overflow: hidden;
+}
+.myParticles {
+	position: fixed;
+	object-fit: cover;
+	z-index: 2;
 }
 /* .animated {
   -webkit-animation-duration: 1s;

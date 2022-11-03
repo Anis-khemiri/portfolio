@@ -9,18 +9,18 @@ import './Card.css'
 export default function Card() {
   return (
     <div className='card'>
-        <ul className='myListInfo ' >
-      <li><CgProfile />name</li>
-<span>Anis khemiri</span>
-<li><AiOutlineMail />Mail</li>
-<span>aniskhemiri99@gmail.com</span>
-<li><BsTelephoneForward />Phone</li>
-<span>+21697442612</span>
-<li><SiFreelancer />Freelance</li>
-<span>available</span>
-<li><CiLocationOn />Aderess</li>
-<span>Tunisia</span>
-</ul>
+        <div className='myListInfo  ' >
+      <h4><CgProfile className='mx-3 my-3'/>Name: <span>Anis khemiri</span></h4>
+
+<h4><AiOutlineMail className='mx-3' my-3 />Mail: <span>aniskhemiri99@gmail.com</span></h4>
+
+<h4><BsTelephoneForward className='mx-3 my-3'/>Phone: <span>+21697442612</span></h4>
+
+<h4><SiFreelancer className='mx-3 my-3'/>Freelance: <span>available</span></h4>
+
+<h4><CiLocationOn className='mx-3 my-3'/>Aderess: <span>Tunisia</span></h4>
+
+</div>
     </div>
   )
 }
