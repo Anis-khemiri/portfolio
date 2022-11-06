@@ -2,6 +2,8 @@ import React from 'react';
 
 import About from '../../pages/About/About';
 import Landing from '../../pages/landing/Landing';
+import Portfolio from '../../pages/Portfolio/Portfolio';
+import Service from '../../pages/Service/Service';
 import Skills from '../../pages/Skills/Skills';
 
 export default function Main() {
@@ -10,6 +12,8 @@ export default function Main() {
       <Landing />
       <About />
       <Skills />
+      <Service />
+      <Portfolio />
       
     </div>
   );

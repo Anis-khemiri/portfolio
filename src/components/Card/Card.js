@@ -8,7 +8,7 @@ import {SiFreelancer} from 'react-icons/si'
 import './Card.css'
 export default function Card() {
   return (
-    <div className='card'>
+    <div className="mycard">
         <div className='myListInfo  ' >
       <h4><CgProfile className='mx-3 my-3'/>Name: <span>Anis khemiri</span></h4>
 

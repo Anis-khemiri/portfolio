@@ -84,14 +84,19 @@ const Landing = () => {
             </a>
           </button>
         </div>
+
+       
+
       </div>
       <div className="myAvatar ms-auto">
+      <Particles className="myParticles" id="tsparticles" />
         <img src={avatar} alt="" />
       </div>
 
-      {/* <Particles className="myParticles" id="tsparticles" /> */}
+      
       <Loader type="pacman" />
     </div>
+     
   );
 };
 

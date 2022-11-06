@@ -1,4 +1,4 @@
-import React, { useEffect} from 'react'
+import React, { useEffect, useState} from 'react'
 import { BsCodeSlash } from 'react-icons/bs';
 import { BiUser } from 'react-icons/bi';
 import { FaGlobeAsia, FaMoneyBillAlt } from 'react-icons/fa';
@@ -7,43 +7,94 @@ import { FaGlobeAsia, FaMoneyBillAlt } from 'react-icons/fa';
 import './Counter.css'
 
 export default function Counter() {
+  const [started, setStarted] = useState(false)
+useEffect(()=> {
+  let nums = document.querySelectorAll(".nums .num");  
+
+
+
+
+
+
+
+  let section = document.querySelector(".mysection");
   
 
-
-let nums = document.querySelectorAll(".nums .num");  
-
-  useEffect(()=> {
-    
-  // console.log(spans[0].dataset.goal)
-  
-  myposition();
-
-    
-  })
-  function myposition() {
-   
     if (window.scrollY >= 850) {
-      console.log("hi");
-    
+      if (started === false) {
         nums.forEach((num) => startCount(num));
+      }
+      setStarted(true);
+    }
+
+  
+
+  
+})
+function startCount(el) {
+  let goal = el.dataset.goal;
+  let count = setInterval(() => {
+    el.textContent++;
+    if (el.textContent == goal) {
+      clearInterval(count);
+    }
+  }, 2000 / goal);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   useEffect(()=> {
+    
+
+  
+//   myposition();
+
+    
+//   })
+//   function myposition() {
+   
+//     if (window.scrollY >= 300) {
+//       console.log("hi");
+    
+//         nums.forEach((num) => startCount(num));
       
    
   
   
-    }}
+//     }}
   
   
    
   
-  function startCount (el) {
-        let goal = el.dataset.goal;
-        let count = setInterval(() => {
-          el.textContent++;
-          if (el.textContent === goal) {
-            clearInterval(count);
-          }
-        }, 2000 / goal);
-      }
+//  const startCount =  (el)=>{
+//         let goal = el.dataset.goal;
+//         let count = setInterval(() => {
+//           el.textContent++;
+//           if (el.textContent === goal) {
+//             clearInterval(count);
+//           }
+//         }, 2000 / goal);
+//       }
       
 
 

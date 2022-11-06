@@ -1,4 +1,4 @@
-.card {
+.mycard {
     width: 500px;
     height: 450px;
     background: #07182E;
@@ -10,13 +10,13 @@
     border-radius: 20px;
   }
   
-  .card h2 {
+  .mycard h2 {
     z-index: 1;
     color: white;
     font-size: 2em;
   }
   
-  .card::before {
+  .mycard::before {
     content: '';
     position: absolute;
     width: 100px;
@@ -53,7 +53,7 @@
     }
   }
   
-  .card::after {
+  .mycard::after {
     content: '';
     position: absolute;
     background: #07182E;
