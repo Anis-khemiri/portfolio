@@ -58,11 +58,64 @@
 } */
 .contact-form input, .contact-form textarea {
   width: 100%;
-  padding: 5px 10px;
+  padding: 10px 10px;
+  box-shadow: 0px -3px 8px 3px #eee;
 }
 .contact-form .flat-button {
- width: 25%;
-}
+ 
+    font-family: inherit;
+    font-size: 20px;
+    background: royalblue;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+   }
+   
+   .contact-form .flat-button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+   }
+   
+  .contact-form .flat-button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+   }
+   
+  .contact-form .flat-button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+   }
+   
+  .contact-form .flat-button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+   }
+   
+  .contact-form .flat-button:hover span {
+    transform: translateX(5em);
+   }
+   
+  .contact-form .flat-button:active {
+    transform: scale(0.95);
+   }
+   
+   @keyframes fly-1 {
+    from {
+     transform: translateY(0.1em);
+    }
+   
+    to {
+     transform: translateY(-0.1em);
+    }
+   }
+   
+
 .contact-form .listInput .half-left {
 
   animation: fadeInUp 2s 2s;
