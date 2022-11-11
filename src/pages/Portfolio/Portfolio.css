@@ -1,0 +1,12 @@
+.listProject li {
+
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.listProject ul li.active {
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+.listProject ul li:not(.active):hover{
+    color: red;
+}

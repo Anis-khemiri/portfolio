@@ -1,6 +1,7 @@
 import React from 'react';
 
 import About from '../../pages/About/About';
+import Contact from '../../pages/Contact/Contact';
 import Landing from '../../pages/landing/Landing';
 import Portfolio from '../../pages/Portfolio/Portfolio';
 import Service from '../../pages/Service/Service';
@@ -14,6 +15,7 @@ export default function Main() {
       <Skills />
       <Service />
       <Portfolio />
+      <Contact />
       
     </div>
   );
