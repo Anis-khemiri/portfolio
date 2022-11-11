@@ -14,7 +14,8 @@
 .text-zone {
   width: 50%;
   height: 500px;
-  background-color: aliceblue;
+ 
+  background-color: rgb(130, 117, 201);
   
 }
 .text-zone p {
@@ -42,6 +43,7 @@
 .contact-form ul li {
   list-style: none;
   width: 100%;
+  margin-bottom: 7px;
  
 }
 /* .contact-form ul .half input[name="name"] {
@@ -54,11 +56,13 @@
   width: 95%;
   margin-left: 18px;
 } */
-.contact-form button, .contact-form input, .contact-form textarea {
+.contact-form input, .contact-form textarea {
   width: 100%;
   padding: 5px 10px;
 }
-
+.contact-form .flat-button {
+ width: 25%;
+}
 .contact-form .listInput .half-left {
 
   animation: fadeInUp 2s 2s;
