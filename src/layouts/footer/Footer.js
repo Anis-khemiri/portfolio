@@ -1,9 +1,29 @@
 import React from 'react'
-
+import { FaFacebookF } from 'react-icons/fa';
+import { BsTwitter } from 'react-icons/bs';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import "./Footer.css"
 export default function Footer() {
   return (
     <div>
-      <h2>footer</h2>
+<footer className="container-fluid d-flex justify-content-between pt-4">
+  <div className="myBrand ">
+  <h2>A.K</h2>
+  </div>
+  <div className="mySociaIcon">
+    <ul className="mySociaIconList d-flex justify-content-center list-unstyled">
+      <li className="myfacebook rounded-circle"><FaFacebookF /></li>
+      <li className="mygithub"><AiFillGithub /></li>
+      <li className="mytwitter"><BsTwitter /></li>
+      <li className="mylinkedin"><AiFillLinkedin /></li>
+     
+    </ul>
+  </div>
+  <div className="myCopyRight">
+    <p>Copyright © 2022 Anis Khemiri.<br></br>
+      All Rights Reserved.</p>
+  </div>
+</footer>
     </div>
   )
 }

@@ -1,7 +1,6 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { fafacebook } from '@fortawesome/free-solid-svg-icons'
-// import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' 
+
+
 import { FaFacebookF } from 'react-icons/fa';
 import { BsTwitter } from 'react-icons/bs';
 import { AiFillGithub } from 'react-icons/ai';
