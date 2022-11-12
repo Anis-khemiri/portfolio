@@ -53,7 +53,7 @@ window.onscroll = function () {
   return (
     <>
   
-    <div className='mySkills'>
+    <div className='mySkills' id="skills">
       <h2>
       <AnimatedLetters
           letterclassName={letterclassName}

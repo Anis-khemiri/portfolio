@@ -1,6 +1,17 @@
 .mysocialIcon {
-    border-left: 1px solid #000;
+    border-left: 1px solid #eee;
+    margin-right: 5px;
+    cursor: pointer;
 }
 .navbar {
-    background-color: #fbb034;
+    background-color: #07182E;
+    color: azure;
+}
+.navbar .navbar-brand {
+    color: azure;
+}
+.navbar .collapse .nav-item{
+  
+    cursor: pointer;
+    font-weight: bold;
 }

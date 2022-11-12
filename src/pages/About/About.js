@@ -24,6 +24,7 @@ const About = () => {
 
   return (
     <>
+    <div id="about">
       <h2 className="text-center mb-5">
         <AnimatedLetters
           letterClass={letterClass}
@@ -78,7 +79,7 @@ const About = () => {
       </div>
       <button className="buttonDownload mt-2">Download CV</button>
 
-      <Loader type="pacman" />
+      </div>
     </>
   );
 };

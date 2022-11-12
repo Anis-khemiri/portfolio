@@ -6,7 +6,7 @@ import {IoIosApps} from 'react-icons/io'
 import './Service.css';
 export default function Service() {
   return (
-    <div className="myService text-center">
+    <div className="myService text-center" id="service">
       <div className="brandName">
         <h2>What I Do for My Clients</h2>
       </div>
