@@ -46,16 +46,7 @@
   margin-bottom: 7px;
  
 }
-/* .contact-form ul .half input[name="name"] {
- 
-  width: 92%;
-  margin-left: 27px;
 
-}
-.contact-form ul .half input[name="email"] {
-  width: 95%;
-  margin-left: 18px;
-} */
 .contact-form input, .contact-form textarea {
   width: 100%;
   padding: 10px 10px;
@@ -126,11 +117,11 @@
 .map-wrap {
   /* background: rgba(8, 253, 216, 0.1); */
 
- width: 50%;
- height: 503px;
+
+ height: 500px;
  
- 
- flex-shrink: 0;
+ min-width: 50%;
+
  border: 2px solid;
  position: relative;
   
@@ -146,10 +137,10 @@
 .info-map {
   position: absolute;
   background: rgba(0, 0, 0, 0.574);
-  top: 47px;
-  right: 14px;
+  top: 50px;
+  right: 0px;
   z-index: 999999;
-  width: 267px;
+  width: 210px;
   padding: 20px;
   color: #fff;
   font-family: 'Helvetica';

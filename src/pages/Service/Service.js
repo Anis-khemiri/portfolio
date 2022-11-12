@@ -12,11 +12,14 @@ export default function Service() {
       </div>
       <div className="listCart row">
         <div className="card col-sm-10 col-md-6 col-lg-4">
-          <div className="iconService">
-            <FaDesktop fa-2x />
-          </div>
+          
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
+            <div className="iconService">
+            <FaDesktop className="fa-5x" />
+          </div>
+            
+        
+            <h5 className="card-title">UIX Design</h5>
             <p className="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -24,14 +27,15 @@ export default function Service() {
             <a href="#" className="btn btn-primary">
               Go somewhere
             </a>
-          </div>
+         
+        </div>
         </div>
         <div className="card  col-sm-10 col-md-6 col-lg-4 ">
           <div className="iconService">
-            <IoIosApps fa-2x />
+            <IoIosApps className="fa-5x" />
           </div>
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
+            <h5 className="card-title">Frontend</h5>
             <p className="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -43,10 +47,10 @@ export default function Service() {
         </div>
         <div className="card  col-sm-10 col-md-6 col-lg-4">
           <div className="iconService">
-            <FaFileCode />
+            <FaFileCode className="fa-5x"/>
           </div>
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
+            <h5 className="card-title">Web Application</h5>
             <p className="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -56,51 +60,7 @@ export default function Service() {
             </a>
           </div>
         </div>
-        <div className="card  col-sm-10 col-md-6 col-lg-4 ">
-          <div className="iconService">
-            <FaDesktop />
-          </div>
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" className="btn btn-primary">
-              Go somewhere
-            </a>
-          </div>
-        </div>
-        <div className="card  col-sm-10 col-md-6 col-lg-4 ">
-          <div className="iconService">
-            <FaDesktop />
-          </div>
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" className="btn btn-primary">
-              Go somewhere
-            </a>
-          </div>
-        </div>
-        <div className="card  col-sm-10 col-md-6 col-lg-4 ">
-          <div className="iconService">
-            <FaDesktop />
-          </div>
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" className="btn btn-primary">
-              Go somewhere
-            </a>
-          </div>
-        </div>
+    
       </div>
     </div>
   );

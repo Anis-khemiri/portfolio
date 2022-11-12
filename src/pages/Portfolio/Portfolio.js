@@ -3,8 +3,8 @@ import Tab from '../../components/TabWork/Tab';
 import "./Portfolio.css";
 export default function Portfolio() {
   return (
-    <div>
-      <div className="brandName" id="portfolio">
+    <div id="portfolio">
+      <div className="brandName">
         <h2>Portfolio</h2>
         <h4>What I Do for My Clients</h4>
       </div>

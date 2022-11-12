@@ -48,14 +48,14 @@ const Tab = () => {
           App
         </li>
       </ul>
-    <div className="row">
+    <div className="row w-100">
       {listpro.map((proj) => {
         return (
 
           <div className="col-sm-6 col-md-4 col-lg-3" key={proj.id} >
             
             <div className=" box listBox mb-3 bg-white" data-work="Preview" >
-              <img className="img-fluid" src={proj.image} width="296px" height="220px"  alt="" />
+              <img className="img-fluid" src={proj.image} min-width="296px" min-height="220px"  alt="" />
               <h4>{proj.name}</h4>
             </div>
            

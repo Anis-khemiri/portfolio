@@ -1,7 +1,7 @@
 import React,{ useEffect, useState } from 'react';
 
 // import Loader from 'react-loaders'
-import { MapContainer, TileLayer, Marker, Popup, Polyline } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from "leaflet";
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
@@ -36,7 +36,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="container contact-page" id="contact">
+      <div className="contact-page" id="contact">
         <div className="text-zone">
           <h1>
             <AnimatedLetters
@@ -113,7 +113,7 @@ const Contact = () => {
 
       
           <MapContainer center={[37.2566, 9.8884]} zoom={13}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+            <TileLayer url="https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png" />
             <Marker position={[37.2566, 9.8884]}>
               <Popup>Anis lives here, come over for a cup of coffee :)</Popup>
             </Marker>

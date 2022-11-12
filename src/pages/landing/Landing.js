@@ -94,7 +94,7 @@ const Landing = () => {
       </div>
 
       
-      <Loader type="pacman" />
+      
     </div>
      
   );
