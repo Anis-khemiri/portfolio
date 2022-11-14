@@ -16,6 +16,7 @@ footer {
     justify-content: center;
     align-items: center;
     color: #07182E;
+    z-index: 2;
 }
 .mySociaIconList .myfacebook:hover {
 background-color: rgb(74, 74, 189);

@@ -14,4 +14,9 @@
   
     cursor: pointer;
     font-weight: bold;
+    z-index: 2;
+    color: aliceblue;
+}
+.navbar .navbar-toggler-icon {
+    background-color: aliceblue;
 }

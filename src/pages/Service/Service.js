@@ -11,7 +11,7 @@ export default function Service() {
         <h2>What I Do for My Clients</h2>
       </div>
       <div className="listCart row">
-        <div className="card col-sm-10 col-md-6 col-lg-4">
+        <div className="card col-sm-12 col-md-4 col-lg-4">
           
           <div className="card-body">
             <div className="iconService">
@@ -30,7 +30,7 @@ export default function Service() {
          
         </div>
         </div>
-        <div className="card  col-sm-10 col-md-6 col-lg-4 ">
+        <div className="card  col-sm-12 col-md-4 col-lg-4 ">
           <div className="iconService">
             <IoIosApps className="fa-5x" />
           </div>
@@ -45,7 +45,7 @@ export default function Service() {
             </a>
           </div>
         </div>
-        <div className="card  col-sm-10 col-md-6 col-lg-4">
+        <div className="card  col-sm-12 col-md-4 col-lg-4">
           <div className="iconService">
             <FaFileCode className="fa-5x"/>
           </div>

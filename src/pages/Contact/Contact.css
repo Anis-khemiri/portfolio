@@ -158,3 +158,23 @@
  
 
 }
+
+
+/* query media */
+
+@media (max-width: 776px){
+  .contact-page {
+flex-direction: column;
+height: 100%;
+  }
+  .text-zone{
+    width: 100%;
+  }
+  .info-map {
+    display: none;
+  }
+  .map-wrap {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import Loader from 'react-loaders';
+
 import AnimatedLetters from '../../components/AnimatedLetters.js';
-import './Landing.css';
+
 import avatar from '../../assets/images/avatar.png';
 // import Particles from '../../components/Particles';
+import './Landing.css';
 
 const Landing = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -53,7 +54,7 @@ const Landing = () => {
   }, []);
 
   return (
-    <div className="mylanding d-flex justify-content-between">
+    <div className="mylanding">
       <div className="myProfile">
         <div className="">
           <h1 className="tada">
@@ -88,7 +89,7 @@ const Landing = () => {
        
 
       </div>
-      <div className="myAvatar ms-auto">
+      <div className="myAvatar md-ms-auto">
       {/* <Particles className="myParticles" id="tsparticles" /> */}
         <img src={avatar} alt="" />
       </div>
