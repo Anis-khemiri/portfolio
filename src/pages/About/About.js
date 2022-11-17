@@ -7,6 +7,7 @@ import {
   faJsSquare,
   faReact,
 } from '@fortawesome/free-brands-svg-icons';
+import myResume from '../../assets/images/myResume.pdf';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../../components/AnimatedLetters';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -73,7 +74,12 @@ const About = () => {
       <div className="Info d-flex justify-content-center align-items-center">
         <Card />
       </div>
-      <button className="buttonDownload mt-2">Download CV</button>
+      <div className="pdf">
+            <a href={myResume} target="_blank" rel="noopener noreferrer">
+            <button className="buttonDownload mt-2">Download CV</button>
+            </a>
+          </div>
+      
 
       </div>
     </>

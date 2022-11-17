@@ -7,8 +7,11 @@
     background-color: #07182E;
     color: azure;
 }
-.navbar .navbar-brand {
-    color: azure;
+.navbar .navbar-brand img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
 }
 .navbar .collapse .nav-item{
   
@@ -16,6 +19,12 @@
     font-weight: bold;
     z-index: 2;
     color: aliceblue;
+}
+
+.navbar .collapse .nav-item:hover{
+  background-color: #ffc107;
+  border-radius: 8px;
+  padding: 0px 5px;
 }
 .navbar .navbar-toggler-icon {
     background-color: aliceblue;

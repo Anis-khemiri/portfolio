@@ -2,13 +2,14 @@ import React from 'react'
 import { FaFacebookF } from 'react-icons/fa';
 import { BsTwitter } from 'react-icons/bs';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import myLogo from "../../assets/images/myLogo.png" ;
 import "./Footer.css"
 export default function Footer() {
   return (
     <div>
 <footer className="container-fluid d-flex justify-content-between pt-4">
   <div className="myBrand ">
-  <h2>A.K</h2>
+  <img src={myLogo} alt="" />
   </div>
   <div className="mySociaIcon">
     <ul className="mySociaIconList d-flex justify-content-center list-unstyled">

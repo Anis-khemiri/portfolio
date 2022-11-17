@@ -4,7 +4,10 @@ import {Link} from 'react-scroll';
 import { FaFacebookF } from 'react-icons/fa';
 import { BsTwitter } from 'react-icons/bs';
 import { AiFillGithub } from 'react-icons/ai';
+import myLogo from "../../assets/images/myLogo.png" ;
 import './Header.css';
+
+
 
 
 
@@ -14,7 +17,10 @@ export default function Header() {
     <div>
       <nav className="navbar navbar-expand-lg sticky-top">
   <div className="container">
-    <a className="navbar-brand" href="#">A.K</a>
+    <a className="navbar-brand" href="#">
+    <img src={myLogo} alt="" />
+    </a>
+   
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

@@ -30,3 +30,9 @@ background-color: rgb(122, 209, 238);
 .mySociaIconList .mylinkedin:hover {
 background-color: rgb(99, 99, 160);
 }
+.myBrand img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
