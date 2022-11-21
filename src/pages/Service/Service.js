@@ -12,8 +12,8 @@ export default function Service() {
       <div className="brandName">
         <h2>What I Do for My Clients</h2>
       </div>
-      <div className="listCart row gap-4">
-        <div className="card col-sm-10 col-md-3 col-lg-3 ">
+      <div className="listCart row gap-2">
+        <div className="card col-sm-12 col-md-3 col-lg-3 ">
           
           <div className="card-body">
             <div className="iconService">
@@ -56,7 +56,7 @@ export default function Service() {
     </div>
   </div>
         </div>
-        <div className="card  col-sm-10 col-md-3 col-lg-3 ">
+        <div className="card  col-sm-12 col-md-3 col-lg-3 ">
           
           <div className="card-body">
           <div className="iconService">
@@ -97,7 +97,7 @@ export default function Service() {
     </div>
   </div>
         </div>
-        <div className="card col-sm-10 col-md-3 col-lg-3">
+        <div className="card col-sm-12 col-md-3 col-lg-3">
           
           <div className="card-body">
           <div className="iconService">

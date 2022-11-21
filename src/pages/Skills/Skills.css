@@ -7,12 +7,15 @@
 
 .three {
     display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
     width: 100%;
   }
   .skills{
-    width: 90%;
+    width: 40%;
+  }
+  .libraire {
+    width: 40%;
   }
   /* section:first-child {
     background-color: #aaa;
@@ -29,7 +32,7 @@
   .progress {
     position: relative;
     
-    height: 30px;
+    height: 10px;
     background-color: white;
     margin: 10px;
   }
@@ -38,6 +41,20 @@
     left: 0;
     top: 0;
     height: 100%;
-    background-color: indianred;
-    transition: width 0.3s linear;
+    background-color: #ffc107;
+    transition: width 0.4s linear;
+  }
+  @media(max-width: 767px){
+    .mySkills{
+      height: 720px;
+    }
+    .three {
+      flex-direction: column;
+      
+    }
+    .skills,
+    .libraire{
+      width: 90%;
+    }
+
   }

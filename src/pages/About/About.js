@@ -8,7 +8,7 @@ import {
   faReact,
 } from '@fortawesome/free-brands-svg-icons';
 import myResume from '../../assets/images/myResume.pdf';
-import Loader from 'react-loaders';
+
 import AnimatedLetters from '../../components/AnimatedLetters';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './About.css';
@@ -33,8 +33,8 @@ const About = () => {
           idx={15}
         />
       </h2>
-      <div className="myAbout d-flex justify-content-between">
-        <div className="aboutInfo ">
+      <div className="myAbout d-flex justify-content-between mt-lg-5">
+        <div className="aboutInfo">
           <p>
             I'm a very ambitious front-end developer looking for a role in an
             established IT company with the opportunity to work with the latest
@@ -71,12 +71,12 @@ const About = () => {
         </div>
       </div>
 
-      <div className="Info d-flex justify-content-center align-items-center">
+      <div className="Info d-flex justify-content-center align-items-center mb-5">
         <Card />
       </div>
       <div className="pdf">
             <a href={myResume} target="_blank" rel="noopener noreferrer">
-            <button className="buttonDownload mt-2">Download CV</button>
+            <button className="buttonDownload mb-3">Download CV</button>
             </a>
           </div>
       
